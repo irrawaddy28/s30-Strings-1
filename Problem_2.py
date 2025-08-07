@@ -106,7 +106,7 @@ def run_lengthOfLongestSubstring():
             if method == 1:
                 l = lengthOfLongestSubstring_1(s)
             elif method == 2:
-                l = lengthOfLongestSubstring_1(s)
+                l = lengthOfLongestSubstring_2(s)
             print(f"\nstring = {s}")
             print(f"Method {method}: len of longest substring w/o repeating chars = {l}")
             success = (ans == l)
